@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="utf-8">
+	<title>Steen Papier Schaar</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+<body>
+	<div class="sps-wrapper">
+		<div id="events"></div>
+
+		<div class="game-wrapper">
+			<form id="chat-form">
+				  <div id="chat-wrapper" class="mdl-textfield mdl-js-textfield">
+				    <input id="chat-text" class="mdl-textfield__input" type="text" id="sample1">
+				    <label class="mdl-textfield__label" for="sample1">Chat...</label>
+				  </div>
+				<button id="verstuur" class="mdl-button mdl-js-button mdl-button--raised">Verstuur</button>
+			</form>
+			<div id="button-wrapper">
+				<button id="steen" class="mdl-button mdl-js-button mdl-button--raised">Steen</button>
+				<button id="papier" class="mdl-button mdl-js-button mdl-button--raised">Papier</button>
+				<button id="schaar" class="mdl-button mdl-js-button mdl-button--raised">Schaar</button>
+			</div>
+		</div>
+		
+	</div>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="scripts/client.js"></script>
+
+</body>
+</html>
