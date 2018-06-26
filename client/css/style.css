@@ -1,0 +1,45 @@
+body {
+	margin: 15px;
+}
+
+#events {
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    height: 60%;
+    width: 90%;
+    margin-bottom: 2px;
+}
+
+.sps-wrapper {
+	border: 1px solid grey;
+	width: 500px;
+	padding: 50px;
+	height: 500px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+#chat-wrapper {
+	margin-right: 10px;
+}
+
+#chat-form {
+	position: absolute;
+	bottom: 60px;
+	width: 100%;
+}
+
+#button-wrapper {
+	widows: 100%;
+	display: inline-block;
+	position: absolute;
+	bottom: 10px;
+}
+
+#steen, #papier, #schaar {
+	margin-right: 50px;
+}
